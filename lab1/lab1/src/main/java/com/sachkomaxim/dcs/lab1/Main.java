@@ -7,5 +7,14 @@ public class Main {
         System.out.println("Starting localized variant of the program...");
         System.out.println("------------------------------------------------");
         LocalizedVersion.main(args);
+
+        System.out.println();
+        System.out.println("================================================");
+        System.out.println("================================================");
+        System.out.println();
+
+        System.out.println("Starting shared variant of the program...");
+        System.out.println("------------------------------------------------");
+        SharedVersion.main(args);
     }
 }
